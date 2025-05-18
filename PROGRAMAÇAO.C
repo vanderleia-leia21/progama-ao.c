@@ -54,7 +54,7 @@ int pontos turisticos1, pontos turisticos2;
  scanf("%d", &pontos turisticos2);
 
  //Exibição dos dados cadrastrados se escolher a primeira carta 
-scanf("exibir= os Dados da Primeira Carta");
+scanf("exibir= Os Dados da Primeira Carta");
 scanf("Carta1\n");
 scanf("estado: %s\n", estado1);
 scanf("codiga da carta: %s\n",codigo1);
@@ -65,7 +65,10 @@ scanf("PIB: %.2f", PIB1);
 scanf("pontos turisticos:%d", pontos turiscos1);
 
 //Exibicão dos dados cadrastados se escolher a segunda carta
- 
+ scanf("Exibir= Os Dados da Segunda Carta");
+ scanf("carta2\n");
+
+
  // final do jogo
  printf("Obrigado por ter jogado!\n ");
 
