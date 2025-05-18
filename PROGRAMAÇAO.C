@@ -24,6 +24,7 @@ int pontos turisticos1, pontos turisticos2;
  printf("Código da carta: A01\n");
  printf("Nome da cidade:Maranhão\n");
  printf("População:316000\n");
+ printf("PIB1, PIB2 \n");
  printf("Área:6581900\n");
  printf("Pontos turísticos:67 \n");
 
