@@ -21,37 +21,43 @@ int pontos turisticos1, pontos turisticos2;
 
  printf("Carta1\n");
  printf("Estado:A\n");
- scanf("%c", &estado1);
+ scanf("%s", &estado1);
  printf("Código da carta: A01\n");
- scanf("%c", &codigo1);
+ scanf("%s", &codigo1);
  printf("Nome da cidade:São Luís\n");
- scanf("%c", &cidade1);
+ scanf("%s", &cidade1);
  printf("População:316000\n");
- scanf("%s", &populacao1);
+ scanf("%d", &populacao1);
  printf("Área:6581900\n");
  scanf("%e", &area1);
  printf("PIB1\n");
- scanf("%e", &PIB1);
+ scanf("%.2f", &PIB1);
  printf("Pontos turísticos:67 \n");
- scanf("%s", &pontos turisticos1);
+ scanf("%d", &pontos turisticos1);
 
 //Cadastro da segunda carta
 
  printf("Carta2\n");
  printf("Estado:B\n");
- scanf("%c", &estado2);
+ scanf("%s", &estado2);
  printf("Código da carta:B02\n" );
- scanf("%c", &codigo2);
+ scanf("%s", &codigo2);
  printf("Nome da cidade:Rio Branco\n");
- scanf("%c", &cidade2);
+ scanf("%s", &cidade2);
  printf("População: 5168009" );
- scanf("%s", &população2);
+ scanf("%d", &população2);
  printf("Área: 4329002" );
- scanf("%e", &area);
+ scanf("%e", &area2);
  printf("PIB2\n");
- scanf("%e", &PIB2);
+ scanf("%.2f", &PIB2);
  printf("Pontos turísticos:43\n" );
- scanf("%s", &pontos turisticos);
+ scanf("%d", &pontos turisticos2);
+
+ //Exibição dos dados cadrastrados
+
+ 
+ // final do jogo
+ printf("Obrigado por ter jogado!\n ");
  
  return 0; 
 }
