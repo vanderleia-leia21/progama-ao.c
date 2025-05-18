@@ -1,5 +1,7 @@
 #include <stdio.h>
+printf("Desafio Super Trunfo- Países\n");
 
+// declaração das variáveis para as duas cartas
 int main(){ 
 char estado1, estado2 [20];
 char codigo1, codigo2[20];
@@ -19,7 +21,7 @@ int pontos turisticos1, pontos turisticos2;
 
  printf("Carta1\n");
  printf("Estado:A\n");
- printf("Códig o da carta: A01\n");
+ printf("Código da carta: A01\n");
  printf("Nome da cidade:Maranhão\n");
  printf("População:316000\n");
  printf("Área:6581900\n");
