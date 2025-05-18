@@ -38,12 +38,20 @@ int pontos turisticos1, pontos turisticos2;
 //Cadastro da segunda carta
 
  printf("Carta2\n");
- printf("Estado:B\n", estado2);
- printf("Código da carta:B02\n", codigo2);
- printf("Nome da cidade: Belo Horizonte\n", cidade2);
- printf("População: 5168009", populacao2);
- printf("Área: 4329002", area2);
- printf("Pontos turísticos:43\n", pontos turisticos2 );
+ printf("Estado:B\n");
+ scanf("%c", &estado2);
+ printf("Código da carta:B02\n" );
+ scanf("%c", &codigo2);
+ printf("Nome da cidade:Rio Branco\n");
+ scanf("%c", &cidade2);
+ printf("População: 5168009" );
+ scanf("%s", &população2);
+ printf("Área: 4329002" );
+ scanf("%e", &area);
+ printf("PIB2\n");
+ scanf("%e", &PIB2);
+ printf("Pontos turísticos:43\n" );
+ scanf("%s", &pontos turisticos);
  
  return 0; 
 }
