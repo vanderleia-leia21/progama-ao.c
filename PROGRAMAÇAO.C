@@ -30,7 +30,7 @@ int pontos turisticos1, pontos turisticos2;
  scanf("%d", &populacao1);
  printf("Área:6581900\n");
  scanf("%e", &area1);
- printf("PIB1\n");
+ printf("PIB1:2009753.89\n");
  scanf("%.2f", &PIB1);
  printf("Pontos turísticos:67 \n");
  scanf("%d", &pontos turisticos1);
@@ -48,16 +48,26 @@ int pontos turisticos1, pontos turisticos2;
  scanf("%d", &população2);
  printf("Área: 4329002" );
  scanf("%e", &area2);
- printf("PIB2\n");
+ printf("PIB2:8400432.2\n");
  scanf("%.2f", &PIB2);
  printf("Pontos turísticos:43\n" );
  scanf("%d", &pontos turisticos2);
 
- //Exibição dos dados cadrastrados
+ //Exibição dos dados cadrastrados se escolher a primeira carta 
+scanf("exibir= os Dados da Primeira Carta");
+scanf("Carta1\n");
+scanf("estado: %s\n", estado1);
+scanf("codiga da carta: %s\n",codigo1);
+scanf("cidade: %s\n", cidade1);
+scanf("populacão: %d\n", populacão1);
+scanf("area: %e\n", area1);
+scanf("PIB: %.2f", PIB1);
+scanf("pontos turisticos:%d", pontos turiscos1);
 
+//Exibicão dos dados cadrastados se escolher a segunda carta
  
  // final do jogo
  printf("Obrigado por ter jogado!\n ");
- 
+
  return 0; 
 }
