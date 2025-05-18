@@ -21,12 +21,19 @@ int pontos turisticos1, pontos turisticos2;
 
  printf("Carta1\n");
  printf("Estado:A\n");
+ scanf("%c", &estado1);
  printf("Código da carta: A01\n");
- printf("Nome da cidade:Maranhão\n");
+ scanf("%c", &codigo1);
+ printf("Nome da cidade:São Luís\n");
+ scanf("%c", &cidade1);
  printf("População:316000\n");
- printf("PIB1, PIB2 \n");
+ scanf("%s", &populacao1);
  printf("Área:6581900\n");
+ scanf("%e", &area1);
+ printf("PIB1\n");
+ scanf("%e", &PIB1);
  printf("Pontos turísticos:67 \n");
+ scanf("%s", &pontos turisticos1);
 
 //Cadastro da segunda carta
 
