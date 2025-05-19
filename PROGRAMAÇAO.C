@@ -56,7 +56,7 @@ int turisticos1, turisticos2;
  //Se escolher a primeira carta exibir só essa carta
 scanf("Se escolher a primeira carta exibir= Os Dados da Primeira Carta");
 scanf("Carta1\n");
-scanf("estado: %s\n", estado1);
+scanf("estado: %s\n", (char *) estado1);
 scanf("codiga da carta: %s\n",codigo1);
 scanf("cidade: %s\n", cidade1);
 scanf("populacão: %d\n", populacao1);
@@ -67,7 +67,7 @@ scanf("pontos turisticos:%d\n",turisticos1);
 //Se escolher a segunda carta exibir so essa carta
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
  scanf("carta2\n");
- scanf("estado2:%s\n", estado2);
+ scanf("estado2:%s\n", (char *) estado2);
  scanf("codigo da carta;%s\n", codigo2);
  scanf("cidade:%s\n", cidade2);
  scanf("população:%d\n", populacao2);
