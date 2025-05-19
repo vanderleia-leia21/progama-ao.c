@@ -1,5 +1,6 @@
 #include <stdio.h>
 printf("Desafio Super Trunfo- Países\n");
+scanf("%d", &desafio);
 
 // declaração das variáveis para as duas cartas
 int main(){ 
@@ -7,16 +8,16 @@ char estado1, estado2 [20];
 char codigo1, codigo2[20];
 char cidade1, cidade2[20];
 int populacao1, populacao2;
-float área1, area2;
+float area1, area2;
 float PIB1, PIB2;
 int pontos turisticos1, pontos turisticos2;
 
  //entrada de dados
- printf("Olá, Seja bem vindo!\n");
- printf("Escolha sua carta,\n");
+ printf("Olá, seja bem vindo!\n");
+ printf("Escolha sua carta\n");
  printf("carta1 ou a carta2\n");
- scanf("%d, &carta1");
- scanf("%d, &carta2");
+ scanf("&carta1");
+ scanf("&carta2");
 
  //cadastro da primeira carta 
 
@@ -47,7 +48,7 @@ int pontos turisticos1, pontos turisticos2;
  printf("Nome da cidade:Rio Branco\n");
  scanf("%s", &cidade2);
  printf("População: 5168009\n" );
- scanf("%d", &população2);
+ scanf("%d", populacao2);
  printf("Área: 4329003.62\n" );
  scanf("%e", &area2);
  printf("PIB2:8400432.2\n");
