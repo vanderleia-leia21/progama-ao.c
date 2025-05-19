@@ -21,7 +21,7 @@ int pontos turisticos1, pontos turisticos2;
  //cadastro da primeira carta 
 
  printf("Carta1\n");
- printf("Estado:A\n");
+ printf("Estado:Maranhão\n");
  scanf("%s", &estado1);
  printf("Código da carta: A01\n");
  scanf("%s", &codigo1);
@@ -29,7 +29,7 @@ int pontos turisticos1, pontos turisticos2;
  scanf("%s", &cidade1);
  printf("População:34316000\n");
  scanf("%d", &populacao1);
- printf("Área:6581900\n");
+ printf("Área:658190.05\n");
  scanf("%e", &area1);
  printf("PIB1:2009753.89\n");
  scanf("%.2f", &PIB1);
@@ -39,7 +39,7 @@ int pontos turisticos1, pontos turisticos2;
 //Cadastro da segunda carta
 
  printf("Carta2\n");
- printf("Estado:B\n");
+ printf("Estado:Acre\n");
  scanf("%s", &estado2);
  printf("Código da carta:B02\n" );
  scanf("%s", &codigo2);
@@ -47,7 +47,7 @@ int pontos turisticos1, pontos turisticos2;
  scanf("%s", &cidade2);
  printf("População: 5168009\n" );
  scanf("%d", &população2);
- printf("Área: 4329002\n" );
+ printf("Área: 4329003.62\n" );
  scanf("%e", &area2);
  printf("PIB2:8400432.2\n");
  scanf("%.2f", &PIB2);
@@ -77,8 +77,9 @@ scanf("pontos turisticos:%d\n", pontos turiscos1);
  scanf("pontos turisticos:%d", pontos turisticos2);
 
 
- // final do jogo
+ // Exibir no final do jogo
  printf("Obrigado por ter jogado!\n ");
+ scanf("%d, &obrigadoporjogar");
 
  return 0; 
 }
