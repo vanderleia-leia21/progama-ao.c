@@ -6,7 +6,7 @@ int main(){
 char estado1, estado2 [20];
 char codigo1, codigo2[20];
 char cidade1, cidade2[20];
-char populacao1, populacao2[98764590000000];
+int populacao1, populacao2;
 float área1, area2;
 float PIB1, PIB2;
 int pontos turisticos1, pontos turisticos2;
@@ -28,7 +28,7 @@ int pontos turisticos1, pontos turisticos2;
  printf("Nome da cidade:São Luís\n");
  scanf("%s", &cidade1);
  printf("População:34316000\n");
- scanf("%s", &populacao1);
+ scanf("%d", &populacao1);
  printf("Área:658190.05\n");
  scanf("%e", &area1);
  printf("PIB1:2009753.89\n");
@@ -46,7 +46,7 @@ int pontos turisticos1, pontos turisticos2;
  printf("Nome da cidade:Rio Branco\n");
  scanf("%s", &cidade2);
  printf("População: 5168009\n" );
- scanf("%s", &população2);
+ scanf("%d", &população2);
  printf("Área: 4329003.62\n" );
  scanf("%e", &area2);
  printf("PIB2:8400432.2\n");
@@ -60,7 +60,7 @@ scanf("Carta1\n");
 scanf("estado: %s\n", estado1);
 scanf("codiga da carta: %s\n",codigo1);
 scanf("cidade: %s\n", cidade1);
-scanf("populacão: %s\n", populacao1);
+scanf("populacão: %d\n", populacao1);
 scanf("area: %e\n", area1);
 scanf("PIB: %.2f\n", PIB1);
 scanf("pontos turisticos:%d\n", pontosturisticos1);
@@ -71,16 +71,11 @@ scanf("pontos turisticos:%d\n", pontosturisticos1);
  scanf("estado2:%s", estado2);
  scanf("codigo da carta;%s", codigo2);
  scanf("cidade:%s", cidade2);
- scanf("população:%s", populacao2);
+ scanf("população:%d", populacao2);
  scanf("area:%e", area2);
  scanf("PIB: %.2f", PIB2);
  scanf("pontos turisticos:%d", pontosturisticos2);
 
-
- // Exibir no final do jogo
- //exibir depois que aparecer os dados da carta2
- printf("Obrigado por ter jogado!\n ");
- scanf("%s, &obrigadoporjogar");
 
  return 0; 
 }
