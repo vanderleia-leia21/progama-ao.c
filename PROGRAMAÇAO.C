@@ -1,6 +1,4 @@
 #include <stdio.h>
-printf("Desafio Super Trunfo- Países\n");
-scanf("%d", &desafio);
 
 // declaração das variáveis para as duas cartas
 int main(){ 
@@ -13,6 +11,8 @@ float PIB1, PIB2;
 int pontos turisticos1, pontos turisticos2;
 
  //entrada de dados
+ printf("Desafio Super Tunfo- Países\n");
+ scanf("&desafio\n");
  printf("Olá, seja bem vindo!\n");
  printf("Escolha sua carta\n");
  printf("carta1 ou a carta2\n");
