@@ -2,13 +2,13 @@
 
 // declaração das variáveis para as duas cartas
 int main(){ 
-char estado1, estado2 [20];
-char codigo1, codigo2[20];
-char cidade1, cidade2[20];
+char estado1, estado2 [50];
+char codigo1, codigo2[50];
+char cidade1, cidade2[50];
 int populacao1, populacao2;
 float area1, area2;
 float PIB1, PIB2;
-int pontos turisticos1, pontos turisticos2;
+int turisticos1, turisticos2;
 
  //entrada de dados
  printf("Desafio Super Tunfo- Países\n");
@@ -32,9 +32,9 @@ int pontos turisticos1, pontos turisticos2;
  printf("Área:658190.05\n");
  scanf("%e", &area1);
  printf("PIB1:2009753.89\n");
- scanf("%.2f", &PIB1); //para a primeira carta
+ scanf("%2f", &PIB1); //para a primeira carta
  printf("Pontos turísticos:67 \n");
- scanf("%d", &pontos turisticos1);
+ scanf("%d", &turisticos1);
 
 //Cadastro da segunda carta
  printf("Carta2\n");
@@ -49,9 +49,9 @@ int pontos turisticos1, pontos turisticos2;
  printf("Área: 4329003.62\n" );
  scanf("%e", &area2);
  printf("PIB2:8400432.2\n");
- scanf("%.2f", &PIB2); //para a segunda carta
+ scanf("%2f", &PIB2); //para a segunda carta
  printf("Pontos turísticos:43\n" );
- scanf("%d", &pontos turisticos2);
+ scanf("%d", &turisticos2);
 
  //Se escolher a primeira carta exibir só essa carta
 scanf("Se escolher a primeira carta exibir= Os Dados da Primeira Carta");
@@ -61,8 +61,8 @@ scanf("codiga da carta: %s\n",codigo1);
 scanf("cidade: %s\n", cidade1);
 scanf("populacão: %d\n", populacao1);
 scanf("area: %e\n", area1);
-scanf("PIB: %.2f\n", PIB1);
-scanf("pontos turisticos:%d\n", pontosturisticos1);
+scanf("PIB: %2f\n", PIB1);
+scanf("pontos turisticos:%d\n",turisticos1);
 
 //Se escolher a segunda carta exibir so essa carta
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
@@ -72,8 +72,8 @@ scanf("pontos turisticos:%d\n", pontosturisticos1);
  scanf("cidade:%s\n", cidade2);
  scanf("população:%d\n", populacao2);
  scanf("area:%e\n", area2);
- scanf("PIB: %.2f\n", PIB2);
- scanf("pontos turisticos:%d\n", pontosturisticos2);
+ scanf("PIB: %2f\n", PIB2);
+ scanf("pontos turisticos:%d\n",turisticos2);
 
 
  return 0; 
