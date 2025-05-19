@@ -78,8 +78,9 @@ scanf("pontos turisticos:%d\n", pontos turiscos1);
 
 
  // Exibir no final do jogo
+ //exibir depois que aparecer os dados da carta2
  printf("Obrigado por ter jogado!\n ");
- scanf("%d, &obrigadoporjogar");
+ scanf("%s, &obrigadoporjogar");
 
  return 0; 
 }
