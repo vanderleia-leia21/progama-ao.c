@@ -26,7 +26,7 @@ int pontos turisticos1, pontos turisticos2;
  scanf("%s", &codigo1);
  printf("Nome da cidade:São Luís\n");
  scanf("%s", &cidade1);
- printf("População:316000\n");
+ printf("População:34316000\n");
  scanf("%d", &populacao1);
  printf("Área:6581900\n");
  scanf("%e", &area1);
