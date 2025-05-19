@@ -67,6 +67,13 @@ scanf("pontos turisticos:%d", pontos turiscos1);
 //Exibicão dos dados cadrastados se escolher a segunda carta
  scanf("Exibir= Os Dados da Segunda Carta");
  scanf("carta2\n");
+ scanf("estado2:%s", estado2);
+ scanf("codigo da carta;%s", codigo2);
+ scanf("cidade:%s", cidade2);
+ scanf("população:%d", população2);
+ scanf("area:%e", area2);
+ scanf("PIB: %.2f", PIB2);
+ scanf("pontos turisticos:%d", pontos turisticos2);
 
 
  // final do jogo
