@@ -35,10 +35,8 @@ int pontos turisticos1, pontos turisticos2;
  scanf("%.2f", &PIB1);
  printf("Pontos turísticos:67 \n");
  scanf("%d", &pontos turisticos1);
- printf("\n");
 
 //Cadastro da segunda carta
-
  printf("Carta2\n");
  printf("Estado:Acre\n");
  scanf("%s", &estado2);
@@ -54,7 +52,6 @@ int pontos turisticos1, pontos turisticos2;
  scanf("%.2f", &PIB2);
  printf("Pontos turísticos:43\n" );
  scanf("%d", &pontos turisticos2);
- printf("\n");
 
  //Exibição dos dados cadrastrados se escolher a primeira carta 
 scanf("Se escolher a primeira carta exibir= Os Dados da Primeira Carta");
