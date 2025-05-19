@@ -16,8 +16,8 @@ int pontos turisticos1, pontos turisticos2;
  printf("Olá, seja bem vindo!\n");
  printf("Escolha sua carta\n");
  printf("carta1 ou a carta2\n");
- scanf("&carta1");
- scanf("&carta2");
+ scanf("&carta1\n");
+ scanf("&carta2\n");
 
  //cadastro da primeira carta 
 
