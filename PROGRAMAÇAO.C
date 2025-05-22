@@ -53,7 +53,7 @@ int turisticos1, turisticos2;
  printf("Pontos turísticos:43\n" );
  scanf("%s", &turisticos2);
 
- //Se escolher a primeira carta exibir só essa carta
+ //Se escolher a carta1 exibir e não a carta 2
 scanf("Se escolher a primeira carta exibir= Os Dados da Primeira Carta");
 scanf("Carta1\n");
 scanf("estado: %d\n", estado1);
@@ -64,7 +64,7 @@ scanf("area: %e\n", area1);
 scanf("PIB: %2f\n", PIB1);
 scanf("pontos turisticos:%s\n",turisticos1);
 
-//Se escolher a segunda carta exibir so essa carta
+//Se escolher a carta2 e não a carta1
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
  scanf("carta2\n"); 
  scanf("estado2:%d\n", estado2);
