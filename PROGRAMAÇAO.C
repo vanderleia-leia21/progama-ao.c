@@ -22,11 +22,11 @@ int turisticos1, turisticos2;
 
  printf("Carta1\n");
  printf("Estado:Maranhão\n");
- scanf("%s", &estado1);
+ scanf("%d", &estado1);
  printf("Código da carta: A01\n");
- scanf("%s", &codigo1);
+ scanf("%d", &codigo1);
  printf("Nome da cidade:São Luís\n");
- scanf("%s", &cidade1);
+ scanf("%d", &cidade1);
  printf("População:34316000\n");
  scanf("%d", &populacao1);
  printf("Área:658190.05\n");
@@ -39,11 +39,11 @@ int turisticos1, turisticos2;
 //Cadastro da segunda carta
  printf("Carta2\n");
  printf("Estado:Acre\n");
- scanf("%s", &estado2);
+ scanf("%d", &estado2);
  printf("Código da carta:B02\n" );
- scanf("%s", &codigo2);
+ scanf("%d", &codigo2);
  printf("Nome da cidade:Rio Branco\n");
- scanf("%s", &cidade2);
+ scanf("%d", &cidade2);
  printf("População: 5168009\n" );
  scanf("%d", populacao2);
  printf("Área: 4329003.62\n" );
@@ -56,9 +56,9 @@ int turisticos1, turisticos2;
  //Se escolher a primeira carta exibir só essa carta
 scanf("Se escolher a primeira carta exibir= Os Dados da Primeira Carta");
 scanf("Carta1\n");
-scanf("estado: %s\n", estado1);
-scanf("codiga da carta: %s\n",codigo1);
-scanf("cidade: %s\n", cidade1);
+scanf("estado: %d\n", estado1);
+scanf("codiga da carta: %d\n",codigo1);
+scanf("cidade: %d\n", cidade1);
 scanf("populacão: %d\n", populacao1);
 scanf("area: %e\n", area1);
 scanf("PIB: %2f\n", PIB1);
@@ -67,14 +67,17 @@ scanf("pontos turisticos:%d\n",turisticos1);
 //Se escolher a segunda carta exibir so essa carta
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
  scanf("carta2\n");
- scanf("estado2:%s\n", estado2);
- scanf("codigo da carta;%s\n", codigo2);
- scanf("cidade:%s\n", cidade2);
+ scanf("estado2:%d\n", estado2);
+ scanf("codigo da carta;%d\n", codigo2);
+ scanf("cidade:%d\n", cidade2);
  scanf("população:%d\n", populacao2);
  scanf("area:%e\n", area2);
  scanf("PIB: %2f\n", PIB2);
  scanf("pontos turisticos:%d\n",turisticos2);
 
+ // se o usuário escolher so uma carta é para exibrir apenas ela
+ scanf("final do jogo\n")
+ printf("obrigardo por jogar!\n");
 
  return 0; 
 }
