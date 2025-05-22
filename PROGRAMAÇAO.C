@@ -46,9 +46,9 @@ int turisticos1, turisticos2;
  scanf("%d", &cidade2);
  printf("População: 5168009\n" );
  scanf("%d", populacao2);
- printf("Área: 4329003.62 Trilhões de Reais\n" );
+ printf("Área: 4329003.62 \n" );
  scanf("%e", &area2);
- printf("PIB2:8400432.2\n");
+ printf("PIB2:8400432.2 Trilhões de Reais\n");
  scanf("%2f", &PIB2); //para a segunda carta
  printf("Pontos turísticos:43\n" );
  scanf("%s", &turisticos2);
