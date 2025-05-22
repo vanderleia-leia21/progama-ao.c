@@ -21,7 +21,7 @@ int turisticos1, turisticos2;
  //cadastro da primeira carta 
 
  printf("Carta1\n");
- printf("Estado:Maranhão\n");
+ printf("Estado:A\n");
  scanf("%d", &estado1);
  printf("Código da carta: A01\n");
  scanf("%d", &codigo1);
@@ -38,7 +38,7 @@ int turisticos1, turisticos2;
 
 //Cadastro da segunda carta
  printf("Carta2\n");
- printf("Estado:Acre\n");
+ printf("Estado:B\n");
  scanf("%d", &estado2);
  printf("Código da carta:B02\n" );
  scanf("%d", &codigo2);
