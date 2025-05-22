@@ -53,8 +53,8 @@ int turisticos1, turisticos2;
  printf("Pontos turísticos:43\n" );
  scanf("%s", &turisticos2);
 
- //Se escolher a carta1 exibir e não a carta 2
-scanf("Se escolher a primeira carta exibir= Os Dados da Primeira Carta");
+ //Se escolher a carta1 
+scanf("Se escolher a primeira carta exibir= Os dados da Primeira Carta");
 scanf("Carta1\n");
 scanf("estado: %d\n", estado1);
 scanf("codiga da carta: %d\n",codigo1);
@@ -64,7 +64,7 @@ scanf("area: %e\n", area1);
 scanf("PIB: %2f\n", PIB1);
 scanf("pontos turisticos:%s\n",turisticos1);
 
-//Se escolher a carta2 e não a carta1
+//Se escolher a carta2 
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
  scanf("carta2\n"); 
  scanf("estado2:%d\n", estado2);
@@ -74,8 +74,10 @@ scanf("pontos turisticos:%s\n",turisticos1);
  scanf("area:%e\n", area2);
  scanf("PIB: %2f\n", PIB2);
  scanf("pontos turisticos:%s\n",turisticos2);
- //Se o usuário escolher a carta1 não é para amostra a carta2, se escolher a carta2 não é para amostrar a cata1
- // se o usuário escolher so uma carta é para exibrir apenas ela
+
+//comparação das cartas
+scanf("comparar as cartas");
+printf("Agora compare sua carta e veja se você venceu.\n");
 
  scanf("final do jogo\n");
  printf("Obrigardo por jogar!\n");
