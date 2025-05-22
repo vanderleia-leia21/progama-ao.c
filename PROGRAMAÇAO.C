@@ -27,14 +27,16 @@ int turisticos1, turisticos2;
  scanf("%d", &codigo1);
  printf("Nome da cidade:São Luís\n");
  scanf("%d", &cidade1);
- printf("População:34316000\n");
+ printf("População:34316000 de pessoas\n");
  scanf("%d", &populacao1);
- printf("Área:658190.05\n");
+ printf("Área:658190.05 km²\n");
  scanf("%e", &area1);
  printf("PIB1:2009753.89 Milhões de Reais\n");
  scanf("%2f", &PIB1); //para a primeira carta
  printf("Pontos turísticos:67 \n");
  scanf("%d\n", &turisticos1);
+
+
 
 //Cadastro da segunda carta
  printf("Carta2\n");
@@ -44,14 +46,15 @@ int turisticos1, turisticos2;
  scanf("%d", &codigo2);
  printf("Nome da cidade:Rio Branco\n");
  scanf("%d", &cidade2);
- printf("População: 5168009\n" );
+ printf("População: 5168009 de pessoas\n" );
  scanf("%d", populacao2);
- printf("Área: 4329003.62 \n" );
+ printf("Área: 4329003.62 km²\n" );
  scanf("%e", &area2);
  printf("PIB2:8400432.2 Trilhões de Reais\n");
  scanf("%2f", &PIB2); //para a segunda carta
  printf("Pontos turísticos:43\n" );
  scanf("%s", &turisticos2);
+
 
  //Se escolher a carta1 
 scanf("Se escolher a primeira carta exibir= Os dados da Primeira Carta");
@@ -64,6 +67,7 @@ scanf("area: %e\n", area1);
 scanf("PIB: %2f\n", PIB1);
 scanf("pontos turisticos:%s\n",turisticos1);
 
+
 //Se escolher a carta2 
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
  scanf("carta2\n"); 
@@ -74,13 +78,10 @@ scanf("pontos turisticos:%s\n",turisticos1);
  scanf("area:%e\n", area2);
  scanf("PIB: %2f\n", PIB2);
  scanf("pontos turisticos:%s\n",turisticos2);
-
-//comparação das cartas
-scanf("comparar as cartas");
-printf("Agora compare sua carta e veja se você venceu.\n");
+ 
 
  scanf("final do jogo\n");
- printf("Obrigardo por jogar!\n");
+ printf("Obrigardo por jogar!\n"); 
 
  return 0; 
 }
