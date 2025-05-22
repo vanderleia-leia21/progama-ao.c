@@ -77,7 +77,7 @@ scanf("pontos turisticos:%s\n",turisticos1);
 
  // se o usuário escolher so uma carta é para exibrir apenas ela
  scanf("final do jogo\n");
- printf("obrigardo por jogar!\n");
+ printf("Obrigardo por jogar!\n");
 
  return 0; 
 }
