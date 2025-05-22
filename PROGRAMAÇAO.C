@@ -74,10 +74,9 @@ scanf("pontos turisticos:%s\n",turisticos1);
  scanf("area:%e\n", area2);
  scanf("PIB: %2f\n", PIB2);
  scanf("pontos turisticos:%s\n",turisticos2);
-
-//Não mostrar os dados da carta que o jogador não escolheu
+ //Se o usuário escolher a carta1 não é para amostra a carta2, se escolher a carta2 não é para amostrar a cata1
  // se o usuário escolher so uma carta é para exibrir apenas ela
- 
+
  scanf("final do jogo\n");
  printf("Obrigardo por jogar!\n");
 
