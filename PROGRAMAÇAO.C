@@ -34,7 +34,7 @@ int turisticos1, turisticos2;
  printf("PIB1:2009753.89 Milhões de Reais\n");
  scanf("%2f", &PIB1); //para a primeira carta
  printf("Pontos turísticos:67 \n");
- scanf("%d", &turisticos1);
+ scanf("%d\n", &turisticos1);
 
 //Cadastro da segunda carta
  printf("Carta2\n");
