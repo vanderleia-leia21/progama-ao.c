@@ -51,7 +51,7 @@ int turisticos1, turisticos2;
  printf("PIB2:8400432.2\n");
  scanf("%2f", &PIB2); //para a segunda carta
  printf("Pontos turísticos:43\n" );
- scanf("%d", &turisticos2);
+ scanf("%s", &turisticos2);
 
  //Se escolher a primeira carta exibir só essa carta
 scanf("Se escolher a primeira carta exibir= Os Dados da Primeira Carta");
@@ -62,7 +62,7 @@ scanf("cidade: %d\n", cidade1);
 scanf("populacão: %d\n", populacao1);
 scanf("area: %e\n", area1);
 scanf("PIB: %2f\n", PIB1);
-scanf("pontos turisticos:%d\n",turisticos1);
+scanf("pontos turisticos:%s\n",turisticos1);
 
 //Se escolher a segunda carta exibir so essa carta
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
@@ -73,10 +73,10 @@ scanf("pontos turisticos:%d\n",turisticos1);
  scanf("população:%d\n", populacao2);
  scanf("area:%e\n", area2);
  scanf("PIB: %2f\n", PIB2);
- scanf("pontos turisticos:%d\n",turisticos2);
+ scanf("pontos turisticos:%s\n",turisticos2);
 
  // se o usuário escolher so uma carta é para exibrir apenas ela
- scanf("final do jogo\n")
+ scanf("final do jogo\n");
  printf("obrigardo por jogar!\n");
 
  return 0; 
