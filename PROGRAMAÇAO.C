@@ -31,7 +31,7 @@ int turisticos1, turisticos2;
  scanf("%d", &populacao1);
  printf("Área:658190.05\n");
  scanf("%e", &area1);
- printf("PIB1:2009753.89\n");
+ printf("PIB1:2009753.89 Milhões de Reais\n");
  scanf("%2f", &PIB1); //para a primeira carta
  printf("Pontos turísticos:67 \n");
  scanf("%d", &turisticos1);
@@ -46,7 +46,7 @@ int turisticos1, turisticos2;
  scanf("%d", &cidade2);
  printf("População: 5168009\n" );
  scanf("%d", populacao2);
- printf("Área: 4329003.62\n" );
+ printf("Área: 4329003.62 Trilhões de Reais\n" );
  scanf("%e", &area2);
  printf("PIB2:8400432.2\n");
  scanf("%2f", &PIB2); //para a segunda carta
@@ -66,7 +66,7 @@ scanf("pontos turisticos:%s\n",turisticos1);
 
 //Se escolher a segunda carta exibir so essa carta
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
- scanf("carta2\n");
+ scanf("carta2\n"); 
  scanf("estado2:%d\n", estado2);
  scanf("codigo da carta;%d\n", codigo2);
  scanf("cidade:%d\n", cidade2);
