@@ -36,12 +36,9 @@ int turisticos1, turisticos2;
  printf("Pontos turísticos:67 \n");
  scanf("%d\n", &turisticos1);
 
-//caso o usuário escolha a carta1
-scanf("exebicão da carta1");
-printf("INFEZLIMENTE, VOCÊ PERDEU!\n");
 
 //Cadastro da segunda carta
- printf("CARTA2\n");
+ printf("\nCARTA2\n");
  printf("Estado:B\n");
  scanf("%d", &estado2);
  printf("Código da carta:B02\n" );
@@ -57,8 +54,10 @@ printf("INFEZLIMENTE, VOCÊ PERDEU!\n");
  printf("Pontos turísticos:43\n" );
  scanf("%s", &turisticos2);
 
+
 //caso o usuário escolha a carta2
-scanf("exibição da carta2");
+scanf(
+    cartaJogador.poder>cartaInimigo.poder ? "exibição da carta2");
 printf("PARABÉNS VOCÊ VENCEU!!!\n");
 
  //Se escolher a carta1 
@@ -72,7 +71,6 @@ scanf("area: %e\n", area1);
 scanf("PIB: %2f\n", PIB1);
 scanf("pontos turisticos:%s\n",turisticos1);
 
-
 //Se escolher a carta2 
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
  scanf("carta2\n"); 
@@ -84,7 +82,26 @@ scanf("pontos turisticos:%s\n",turisticos1);
  scanf("PIB: %2f\n", PIB2);
  scanf("pontos turisticos:%s\n",turisticos2);
 
+ // Ajusta para índice de array (0 ou 1). Se  for inválido, usa 0 por pardrão.
+ int carta1 != 1 -carta2;
+ //Se for 2=>1, se for 1 =>0
+int carta2 != 1 -carta1;
 
+carta carta1=cartas[carta1];
+carta carta2=cartas[carta2]; 
+
+printf("\n Você escolheu: %s\n", &carta1);
+printf("O oponente ficou com: %s\n", &carta2);
+
+//caso o usuário escolha a carta1
+scanf(carta1<carta2 "exibição da carta1", carta1);
+printf("INFEZLIMENTE, VOCÊ PERDEU!\n");
+
+//caso o usuário escolha a carta2
+scanf(carta2>carta1 "exibição da carta2",carta2);
+printf("PARABÉNS VOCÊ VENCEU!!!\n");
+
+ // final do jogo super trunfo
  scanf("final do jogo\n");
  printf("Obrigardo por jogar!\n"); 
 
