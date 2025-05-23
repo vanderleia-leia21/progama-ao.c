@@ -14,14 +14,14 @@ int turisticos1, turisticos2;
  printf("Desafio Super Tunfo- Países\n");
  printf("Olá, seja bem vindo!\n");
  printf("Escolha sua carta, carta1 ou carta2\n");
- printf("digite 1 ou 2 \n");
- scanf("&1\n");
- scanf("&2\n");
+ printf("digite carta1 ou carta2 \n");
+ scanf("&carta1\n");
+ scanf("&carta2\n");
 
 
  //cadastro da primeira carta 
 
- printf("CARTA1\n");
+ printf("\nCARTA 1:\n");
  printf("Estado:A\n");
  scanf("%d", &estado1);
  printf("Código da carta: A01\n");
@@ -38,7 +38,7 @@ int turisticos1, turisticos2;
  scanf("%d\n", &turisticos1);
 
 //Cadastro da segunda carta
- printf("\nCARTA2\n");
+ printf("\nCARTA 2:\n");
  printf("Estado:B\n");
  scanf("%d", &estado2);
  printf("Código da carta:B02\n" );
@@ -79,7 +79,7 @@ scanf("pontos turisticos:%s\n",turisticos1);
 
  // final do jogo super trunfo
  scanf("final do jogo\n");
- printf("Obrigardo por jogar!\n"); 
+ printf("\nObrigardo por jogar!\n"); 
 
  return 0; 
 }
