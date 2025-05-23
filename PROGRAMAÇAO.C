@@ -37,7 +37,6 @@ int turisticos1, turisticos2;
  printf("Pontos turísticos:67 \n");
  scanf("%d\n", &turisticos1);
 
-
 //Cadastro da segunda carta
  printf("\nCARTA2\n");
  printf("Estado:B\n");
@@ -66,10 +65,6 @@ scanf("area: %e\n", area1);
 scanf("PIB: %2f\n", PIB1);
 scanf("pontos turisticos:%s\n",turisticos1);
 
- //exibir na carta1 
-scanf("exibição da carta1");
-printf("\nINFEZLIMENTE VOCÊ PERDEU!!\n");
-
 //se escolher a carta2 
  scanf("Se escolher a sedunda carta exibir= Os Dados da Segunda Carta");
  scanf("carta2\n"); 
@@ -81,9 +76,6 @@ printf("\nINFEZLIMENTE VOCÊ PERDEU!!\n");
  scanf("PIB: %2f\n", PIB2);
  scanf("pontos turisticos:%s\n",turisticos2);
 
-//exibir na carta2
-scanf("exibição da carta2");
-printf("\nPARABÉNS VOCÊ VENCEU!!!\n");
 
  // final do jogo super trunfo
  scanf("final do jogo\n");
