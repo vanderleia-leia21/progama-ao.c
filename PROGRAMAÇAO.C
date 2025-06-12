@@ -51,19 +51,19 @@ int main() {
     // Exibição dos resultados
     printf("--Comparação dos Atributos--\n\n");
 
-    printf("Carta 1 - São Luís:\n");
+    printf("Carta 1 -%d:\n");
     printf("Área: %.2f km²\n", area1);
 
-    printf("Carta 2 - Rio Branco:\n");
+    printf("Carta 2 - %d:\n");
     printf("Área: %.2f km²\n\n", area2);
 
    // Comparações
     printf("--Resultado--\n");
 
     if (area1 > area2) {
-        printf("\nCarta 1 - São Luís, venceu!!!\n");
+        printf("\nCarta 1 -%d, venceu!!!\n");
     } else if (area2> area1) {
-        printf("\nCarta 2 - Rio Branco, venceu!!!\n");
+        printf("\nCarta 2 - %d, venceu!!!\n");
     } else {
         printf("\nEmpate.\n");
     }
