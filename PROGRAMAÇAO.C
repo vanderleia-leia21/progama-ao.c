@@ -1,72 +1,51 @@
  #include <stdio.h>
 
 int main() {
-     //entrada de dados
-   printf("-----Desafio Super Tunfo- Países-----\n");
-   printf("\nOlá, seja bem vindo!\n");
+    char estado[3];
+    char codigo[10];
+    char cidade[50];
+    int populacao;
+    float area;
+    float pib;
+    int pontos;
 
-    // Dados da carta 1 (São Luís)
-    char estado1[];
-    char codigo1[];
-    char cidade1[];
-    int populacao1;
-    float area1;
-    float pib1; // Em milhões
-    int pontos1;
+    // Entrada dos dados
+    printf("Informe o estado: ");
+    scanf("%s", estado);
 
-    // Dados da carta 2 (Rio Branco)
-    char estado2[];
-    char codigo2[];
-    char cidade2[];
-    int populacao2;
-    float area2;
-    float pib2; // Em trilhões convertidos para milhões
-    int pontos2;
+    printf("Informe o código da carta: ");
+    scanf("%s", codigo);
+
+    printf("Informe o nome da cidade: ");
+    scanf(" %[^\n]", cidade); // lê o nome completo com espaços
+
+    printf("Informe a população: ");
+    scanf("%d", &populacao);
+
+    printf("Informe a área em km²: ");
+    scanf("%f", &area);
+
+    printf("Informe o PIB (em milhões de reais): ");
+    scanf("%f", &pib);
+
+    printf("Informe a quantidade de pontos turísticos: ");
+    scanf("%d", &pontos);
 
     // Cálculos
-    float densidade1 = populacao1 / area1;
-    float pibPercapita1 = (pib1 * 1000000) / populacao1;
+    float densidade = populacao / area;
+    float pibPercapita = (pib * 1000000) / populacao;
 
-    float densidade2 = populacao2 / area2;
-    float pibPercapita2 = (pib2 * 1000000) / populacao2;
-
-    // entrada de dados
-    printf("\nCARTA 1\n");
-    printf("Digite o Estado: \nDigite o Código: \nDigite a Cidade: \nDigite a Populacão: \n Digite a Área: \n Digite o PIB: \n digite os Pontos turísticos: \n",estado1,codigo1, cidade1, populacao1, area1, pib1, pontos1);
-    printf("Digite a Densidade populacional: \n", densidade1);
-    printf("Digite o PIB per capita:  \n", pibPercapita1);
-    scanf(" &estado1 , &codigo1, &cidade1 , &populacao1, &area1 , &PIB1, &turistico1");
-    scanf(" &densidade1");
-    scanf( "&pibPercapita1");
-
-
-    printf("CARTA 2\n");
-    printf("Digite o Estado: \n Digite o Código: \nDigite a Cidade: \nDigite a Populacão:\nDigite a Área: \nDigite o PIB:\nDigite o Pontos turísticos: \n", estado2,codigo2,cidade2, populacao2, area2, pib2, pontos2);
-    printf("Digite a Densidade populacional: \n", densidade2);
-    printf("Digite o PIB per capita:\n\n", pibPercapita2);
-    scanf(" &estado2 , &codigo2, &cidade2 , &populacao2, &area2 , &PIB2, &turistico2");
-    scanf(" &densidade2");
-    scanf( "&pibPercapita2");
-
-    // Exibição dos resultados
-    printf("--Comparação dos Atributos--\n\n");
-
-    printf("Carta 1 -%d:\n");
-    printf("Área: %.2f km²\n", area1);
-
-    printf("Carta 2 - %d:\n");
-    printf("Área: %.2f km²\n\n", area2);
-
-   // Comparações
-    printf("--Resultado--\n");
-
-    if (area1 > area2) {
-        printf("\nCarta 1 -%d, venceu!!!\n");
-    } else if (area2> area1) {
-        printf("\nCarta 2 - %d, venceu!!!\n");
-    } else {
-        printf("\nEmpate.\n");
-    }
+    // Exibição dos dados
+    printf("\n--- CARTA SUPER TRUNFO ---\n");
+    printf("Estado: %s\n", estado);
+    printf("Código da carta: %s\n", codigo);
+    printf("Nome da cidade: %s\n", cidade);
+    printf("População: %d pessoas\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f milhões de reais\n", pib);
+    printf("Pontos turísticos: %d\n", pontos);
+    printf("Densidade populacional: %.2f hab/km²\n", densidade);
+    printf("PIB per capita: R$ %.2f\n", pibPercapita);
 
     return 0;
 }
