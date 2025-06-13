@@ -2,12 +2,12 @@
 
 int main() {
     // Variáveis da Carta 1
-    char estado1[3], codigo1[10], cidade1[50];
+    char estado1[2], codigo1[10], cidade1[50];
     int populacao1, pontos1;
     float area1, pib1;
 
     // Variáveis da Carta 2
-    char estado2[3], codigo2[10], cidade2[50];
+    char estado2[2], codigo2[10], cidade2[50];
     int populacao2, pontos2;
     float area2, pib2;
 
@@ -21,9 +21,9 @@ int main() {
     scanf(" %[^\n]", cidade1);
     printf("População: ");
     scanf("%d", &populacao1);
-    printf("Área (km²): ");
+    printf("Área: ");
     scanf("%f", &area1);
-    printf("PIB (em milhões de reais): ");
+    printf("PIB: ");
     scanf("%f", &pib1);
     printf("Pontos turísticos: ");
     scanf("%d", &pontos1);
@@ -38,9 +38,9 @@ int main() {
     scanf(" %[^\n]", cidade2);
     printf("População: ");
     scanf("%d", &populacao2);
-    printf("Área (km²): ");
+    printf("Área: ");
     scanf("%f", &area2);
-    printf("PIB (em milhões de reais): ");
+    printf("PIB : ");
     scanf("%f", &pib2);
     printf("Pontos turísticos: ");
     scanf("%d", &pontos2);
@@ -54,7 +54,7 @@ int main() {
 
     // Exibição das cartas
     printf("\n===== CARTA 1 =====\n");
-    printf("Cidade: %s (%s)\n", cidade1, estado1);
+    printf("Cidade: %s \n", cidade1, estado1);
     printf("Código: %s\n", codigo1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2f km²\n", area1);
@@ -64,7 +64,7 @@ int main() {
     printf("PIB per capita: R$ %.2f\n", pibPercapita1);
 
     printf("\n===== CARTA 2 =====\n");
-    printf("Cidade: %s (%s)\n", cidade2, estado2);
+    printf("Cidade: %s \n", cidade2, estado2);
     printf("Código: %s\n", codigo2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f km²\n", area2);
@@ -76,9 +76,9 @@ int main() {
     // Comparação de Área
     printf("\n======= RESULTADO =======\n");
     if (area1 > area2) {
-        printf("A CARTA 1 é a vencedora com maior área!\n");
+        printf("A CARTA 1 é a vencedora com maior área!!!\n");
     } else if (area2 > area1) {
-        printf("A CARTA 2 é a vencedora com maior área!\n");
+        printf("A CARTA 2 é a vencedora com maior área!!!\n");
     } else {
         printf("Empate: As duas cartas têm a mesma área.\n");
     }
