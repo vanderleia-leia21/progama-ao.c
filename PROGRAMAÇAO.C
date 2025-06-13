@@ -34,19 +34,19 @@ int main() {
     printf("\nCARTA 1\n");
     printf("Digite o Estado: \nDigite o Código: \nDigite a Cidade: \nDigite a Populacão: \n Digite a Área: \n Digite o PIB: \n digite os Pontos turísticos: \n",estado1,codigo1, cidade1, populacao1, area1, pib1, pontos1);
     printf("Digite a Densidade populacional: \n", densidade1);
-    printf("Digite o PIB per capita:  \n\n", pibPercapita1);
-    scanf("%d\n", &estado1 "%d\n", &codigo1 "%d\n", &cidade1 "%d\n", &populacao1 "%e\n"&area1 "%2f\n", &PIB1 "%d\n", &turistico1);
-    scanf("%2f\n", &densidade1);
-    scanf("%2f\n", &pibPercapita1);
+    printf("Digite o PIB per capita:  \n", pibPercapita1);
+    scanf(" &estado1 , &codigo1, &cidade1 , &populacao1, &area1 , &PIB1, &turistico1");
+    scanf(" &densidade1");
+    scanf( "&pibPercapita1");
 
 
     printf("CARTA 2\n");
     printf("Digite o Estado: \n Digite o Código: \nDigite a Cidade: \nDigite a Populacão:\nDigite a Área: \nDigite o PIB:\nDigite o Pontos turísticos: \n", estado2,codigo2,cidade2, populacao2, area2, pib2, pontos2);
     printf("Digite a Densidade populacional: \n", densidade2);
     printf("Digite o PIB per capita:\n\n", pibPercapita2);
-    scanf("%d\n", &estado2 "%d\n", &codigo2 "%d\n", &cidade2 "%d\n", &populacao2 "%e\n"&area2 "%2f\n", &PIB2 "%d\n", &turistico2);
-    scanf("%2f\n", &densidade2);
-    scanf("%2f\n", &pibPercapita2);
+    scanf(" &estado2 , &codigo2, &cidade2 , &populacao2, &area2 , &PIB2, &turistico2");
+    scanf(" &densidade2");
+    scanf( "&pibPercapita2");
 
     // Exibição dos resultados
     printf("--Comparação dos Atributos--\n\n");
