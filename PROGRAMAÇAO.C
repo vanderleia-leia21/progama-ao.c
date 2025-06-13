@@ -45,18 +45,19 @@ int main() {
     printf("Pontos turísticos: ");
     scanf("%d", &pontos2);
 
-    // Cálculos
+// Cálculos
     float densidade1 = populacao1 / area1;
     float densidade2 = populacao2 / area2;
 
     float pibPercapita1 = (pib1 * 1000000) / populacao1;
     float pibPercapita2 = (pib2 * 1000000) / populacao2;
 
-    // Exibição das cartas
+ // Exibição das cartas
     printf("\n===== CARTA 1 =====\n");
-    printf("Cidade: %s \n", cidade1, estado1);
+    printf("Estado: %s\n", estado1);
+    printf("Cidade: %s \n", cidade1, );
     printf("Código: %s\n", codigo1);
-    printf("População: %d\n", populacao1);
+    printf("População: %d de  pessoas\n", populacao1);
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f milhões de reais\n", pib1);
     printf("Pontos turísticos: %d\n", pontos1);
@@ -64,23 +65,33 @@ int main() {
     printf("PIB per capita: R$ %.2f\n", pibPercapita1);
 
     printf("\n===== CARTA 2 =====\n");
-    printf("Cidade: %s \n", cidade2, estado2);
+    printf("Estado: %s\n", estado1);
+    printf("Cidade: %s \n", cidade2);
     printf("Código: %s\n", codigo2);
-    printf("População: %d\n", populacao2);
+    printf("População: %d de pessoas\n", populacao2);
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f milhões de reais\n", pib2);
     printf("Pontos turísticos: %d\n", pontos2);
     printf("Densidade populacional: %.2f hab/km²\n", densidade2);
-    printf("PIB per capita: R$ %.2f\n", pibPercapita2);
+    printf("PIB per capita: R$ %.2f\n\n", pibPercapita2);
+
+  // Exibição dos resultados
+    printf("--Comparação dos Atributos--\n");
+
+    printf("Carta 1\nCidade %s\n", cidade1);
+    printf("Área: %.2f km²\n", area1);
+
+    printf("Carta 2\nCidade %s\n", cidade2);
+    printf("Área: %.2f km²\n\n", area2);
 
     // Comparação de Área
     printf("\n======= RESULTADO =======\n");
     if (area1 > area2) {
-        printf("A CARTA 1 é a vencedora com maior área!!!\n");
+        printf("A CARTA 1 é a vencedora com maior área!!!\n\n");
     } else if (area2 > area1) {
-        printf("A CARTA 2 é a vencedora com maior área!!!\n");
+        printf("A CARTA 2 é a vencedora com maior área!!!\n\n");
     } else {
-        printf("Empate: As duas cartas têm a mesma área.\n");
+        printf("Empate: As duas cartas têm a mesma área.\n\n");
     }
 
     return 0;
