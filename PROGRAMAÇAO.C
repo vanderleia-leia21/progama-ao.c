@@ -12,6 +12,7 @@ int main() {
     float area2, pib2;
 
     // Entrada da Carta 1
+    printf("---Desafio Super Trunfo - Países---\n\n");
     printf("---- Digite os dados da CARTA 1 ----\n");
     printf("Estado: ");
     scanf("%s", estado1);
@@ -53,19 +54,21 @@ int main() {
     float pibPercapita2 = (pib2 * 1000000) / populacao2;
 
  // Exibição das cartas
-    printf("\n===== CARTA 1 =====\n");
+
+    printf("\n===== CARTA  =====\n");
     printf("Estado: %s\n", estado1);
-    printf("Cidade: %s \n", cidade1, );
+    printf("Cidade: %s \n", cidade1);
     printf("Código: %s\n", codigo1);
-    printf("População: %d de  pessoas\n", populacao1);
+    printf("População: %d de pessoas\n", populacao1);
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f milhões de reais\n", pib1);
     printf("Pontos turísticos: %d\n", pontos1);
     printf("Densidade populacional: %.2f hab/km²\n", densidade1);
-    printf("PIB per capita: R$ %.2f\n", pibPercapita1);
+    printf("PIB per capita: R$ %.2f\n\n", pibPercapita1);
+
 
     printf("\n===== CARTA 2 =====\n");
-    printf("Estado: %s\n", estado1);
+    printf("Estado: %s\n", estado2);
     printf("Cidade: %s \n", cidade2);
     printf("Código: %s\n", codigo2);
     printf("População: %d de pessoas\n", populacao2);
