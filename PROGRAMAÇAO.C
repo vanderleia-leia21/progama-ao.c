@@ -32,11 +32,11 @@ int main() {
     // Entrada da Carta 2
     printf("\n---- Digite os dados da CARTA 2 ----\n");
     printf("Estado: ");
-    scanf("%s", estado2);
+    scanf("%s", &estado2);
     printf("Código da carta: ");
-    scanf("%s", codigo2);
+    scanf("%s", &codigo2);
     printf("Nome da cidade: ");
-    scanf(" %[^\n]", cidade2);
+    scanf(" %[^\n]", &cidade2);
     printf("População: ");
     scanf("%d", &populacao2);
     printf("Área: ");
