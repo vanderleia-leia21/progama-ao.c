@@ -15,9 +15,9 @@ int main() {
     printf("---Desafio Super Trunfo - Países---\n\n");
     printf("---- Digite os dados da CARTA 1 ----\n");
     printf("Estado: ");
-    scanf("%d", &estado1);
+    scanf("%s", &estado1);
     printf("Código da carta: ");
-    scanf("%d", &codigo1);
+    scanf("%s", &codigo1);
     printf("Nome da cidade: ");
     scanf(" %[^\n]", &cidade1);
     printf("População: ");
