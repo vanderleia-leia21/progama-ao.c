@@ -15,11 +15,11 @@ int main() {
     printf("---Desafio Super Trunfo - Países---\n\n");
     printf("---- Digite os dados da CARTA 1 ----\n");
     printf("Estado: ");
-    scanf("%s", estado1);
+    scanf("%s", &estado1);
     printf("Código da carta: ");
-    scanf("%s", codigo1);
+    scanf("%s", &codigo1);
     printf("Nome da cidade: ");
-    scanf(" %[^\n]", cidade1);
+    scanf(" %[^\n]", &cidade1);
     printf("População: ");
     scanf("%d", &populacao1);
     printf("Área: ");
@@ -55,10 +55,10 @@ int main() {
 
  // Exibição das cartas
 
-    printf("\n===== CARTA  =====\n");
+    printf("\n===== CARTA 1 =====\n");
     printf("Estado: %s\n", estado1);
-    printf("Cidade: %s \n", cidade1);
     printf("Código: %s\n", codigo1);
+    printf("Cidade: %s \n", cidade1);
     printf("População: %d de pessoas\n", populacao1);
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f milhões de reais\n", pib1);
@@ -69,8 +69,8 @@ int main() {
 
     printf("\n===== CARTA 2 =====\n");
     printf("Estado: %s\n", estado2);
-    printf("Cidade: %s \n", cidade2);
     printf("Código: %s\n", codigo2);
+    printf("Cidade: %s \n", cidade2);
     printf("População: %d de pessoas\n", populacao2);
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f milhões de reais\n", pib2);
